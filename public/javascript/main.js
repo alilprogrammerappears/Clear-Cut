@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', async function() {
     // Check if on the homepage
-    if (window.location.pathname === '/home.html') {
+    if (window.location.pathname === '/index.html') {
         await fetchAllRecipes();
     }
     
