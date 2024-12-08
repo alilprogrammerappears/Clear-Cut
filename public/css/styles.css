@@ -1,0 +1,44 @@
+
+body {
+
+    background-color: #10d2ec !important;
+}
+
+/* Custom Navbar Styling */
+.custom-navbar {
+    background-color: #10d2ec;
+  }
+  
+  /* Search Bar */
+  .custom-navbar .form-control {
+    border: 1px solid #ccc;
+  }
+  
+  /* Search Button */
+  
+  .custom-navbar .btn-outline-success {
+    color: #000;
+    border-color: #10d2ec;
+    background-color: #fff;
+  }
+  
+  .custom-navbar .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  /* Submit a Recipe Button */
+  .custom-navbar .btn-outline-light {
+    font-weight: 600;
+  }
+  
+  .custom-navbar .btn-outline-light:hover {
+    background-color: #f6f62f;
+    outline-color: #f6f62f;
+  }
+
+  #title {
+
+    padding: 125px 0px 175px 0px;
+  }
+  
