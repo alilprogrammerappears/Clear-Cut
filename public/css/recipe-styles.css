@@ -1,0 +1,98 @@
+
+body {
+
+    background-color: #10d2ec !important;
+}
+
+/* Custom Navbar Styling */
+.custom-navbar {
+    background-color: #10d2ec;
+  }
+  
+/* Search Bar */
+.custom-navbar .form-control {
+  border: 1px solid #ccc;
+}
+
+/* Search Button */
+
+.custom-navbar .btn-outline-success {
+  color: #000;
+  border-color: #10d2ec;
+  background-color: #fff;
+}
+
+.custom-navbar .btn-outline-success:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Submit a Recipe Button */
+.custom-navbar .btn-outline-light {
+  font-weight: 600;
+}
+
+.custom-navbar .btn-outline-light:hover {
+  background-color: #f6f62f;
+  outline-color: #f6f62f;
+}
+
+#scrollBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  background-image:  url('https://api.iconify.design/material-symbols/arrow-upward.svg?color=%23626262');
+  background-repeat: no-repeat;
+  background-position: center center ;
+  background-size:contain;
+}
+
+#scrollBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#title {
+
+  padding: 50px 0px 25px 0px;
+}
+
+#full-recipe-container {
+  background: white;
+  padding: 20px;
+  width: 75%;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  text-align: left;
+}
+
+#full-recipe-container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#full-recipe-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#full-recipe-container h4, #full-recipe-container h5 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#full-recipe-container ul {
+  padding-left: 20px;
+}
